@@ -15,8 +15,8 @@ def runall():
     # Use global variables for green and red data arrays
     global green, red
     number_of_files = 1
-    filename = "Dye_20_nM"
-    toloadpath = r"/Users/Mathew/Documents/Current analysis/FCS/FCS_LUVwithAF488_AF647/"
+    filename = "Dye_10nM"
+    toloadpath = r"/Users/Mathew/Documents/Current analysis/FCS/FCS_LUVwithGFP_ATTO655DNA/"
 
     green, red = [], []  # Initialize lists to store data from CSV files
 
